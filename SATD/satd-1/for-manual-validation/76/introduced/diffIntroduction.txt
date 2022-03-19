@@ -1,0 +1,22 @@
+diff --git a/src/core/org/apache/jmeter/threads/ThreadGroup.java b/src/core/org/apache/jmeter/threads/ThreadGroup.java
+index 926f6c7..155cd7d 100644
+--- a/src/core/org/apache/jmeter/threads/ThreadGroup.java
++++ b/src/core/org/apache/jmeter/threads/ThreadGroup.java
+@@ -429,7 +429,7 @@ public class ThreadGroup extends AbstractThreadGroup {
+     public boolean verifyThreadsStopped() {
+         boolean stoppedAll = true;
+         if (delayedStartup){
+-            stoppedAll &= verifyThreadStopped(threadStarter);
++            stoppedAll = verifyThreadStopped(threadStarter);
+         }
+         for (Thread t : allThreads.values()) {
+             stoppedAll = stoppedAll && verifyThreadStopped(t);
+@@ -497,6 +497,7 @@ public class ThreadGroup extends AbstractThreadGroup {
+         try {
+             Thread.sleep(ms);
+         } catch (InterruptedException e) {
++            // TODO Is this silent exception intended
+         }
+     }
+ 
+

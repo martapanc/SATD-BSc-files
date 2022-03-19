@@ -1,0 +1,10 @@
+File path: src/components/org/apache/jmeter/assertions/HTMLAssertion.java
+Comment: //TODO replace with proper Exception
+Initial commit id: 11106b779
+Final commit id: 165a20cbd
+   Bugs between [       2]:
+8cf39ed85 Bug 57193: Add param and return tags to javadoc Bugzilla Id: 57193
+0a717bbad Bug 41873 - Add name to AssertionResult and display AssertionResult in ViewResultsFullVisualizer
+   Bugs after [       1]:
+0af7ce0e4 Bug 60564 - Migrating LogKit to SLF4J - Replace logkit loggers with slf4j ones with keeping the current logkit binding solution Contributed by Woonsan Ko This closes #263 Bugzilla Id: 60564
+

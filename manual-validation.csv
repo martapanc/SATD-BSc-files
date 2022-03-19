@@ -1,0 +1,37 @@
+id,system,file,commen
+1,ant,src/main/org/apache/tools/ant/taskdefs/Execute.java,//TODO: nothing appears to read this but is set using a public setter.
+5,jmeter,src/jorphan/org/apache/jorphan/gui/RateRenderer.java,// TODO: should this just call super()?
+12,jmeter,src/components/org/apache/jmeter/assertions/HTMLAssertion.java,//TODO replace with proper Exception
+18,jmeter,src/components/org/apache/jmeter/visualizers/BeanShellListener.java,// TODO - remove UnsharedComponent ? Probably does not make sense for a TestBean.
+21,jmeter,src/protocol/native/org/apache/jmeter/protocol/system/SystemSampler.java,// TODO is this the best way to do this?
+30,jmeter,src/core/org/apache/jmeter/gui/action/EditCommand.java,// TODO: I believe the following code (to the end of the method) is
+33,jmeter,src/protocol/mail/org/apache/jmeter/protocol/mail/sampler/MailReaderSampler.java,// TODO is this sensible?
+34,jmeter,src/components/org/apache/jmeter/assertions/HTMLAssertion.java,//TODO replace with proper Exception
+38,jmeter,src/components/org/apache/jmeter/reporters/MailerModel.java,// TODO: should this be clearData()?
+41,jmeter,src/core/org/apache/jmeter/JMeter.java,// TODO perhaps should share code with __time() function for this...
+56,jmeter,src/core/org/apache/jmeter/gui/action/EditCommand.java,// TODO: I believe the following code (to the end of the method) is
+58,jmeter,src/core/org/apache/jmeter/reporters/ResultSaver.java,// TODO - perhaps save other items such as headers?
+69,jmeter,src/core/org/apache/jmeter/reporters/ResultSaver.java,// TODO is this the right thing to do?
+75,jmeter,src/core/org/apache/jmeter/testelement/TestElement.java,// TODO - yet another ambiguous name - does it need changing?
+76,jmeter,src/core/org/apache/jmeter/threads/ThreadGroup.java,// TODO Is this silent exception intended
+78,jmeter,src/core/org/apache/jmeter/threads/JMeterThread.java,// TODO: remove this useless Entry parameter
+82,jmeter,src/core/org/apache/jmeter/util/JMeterUtils.java,// TODO - does not appear to be called directly
+84,jmeter,src/core/org/apache/jmeter/util/BeanShellClient.java,// TODO Why empty block ?
+87,jmeter,src/core/org/apache/jmeter/util/JMeterUtils.java,// TODO only called by UserParameterXMLParser.getXMLParameters which is a deprecated class
+88,jmeter,src/core/org/apache/jmeter/util/JMeterUtils.java,// TODO probably not needed
+99,jmeter,src/functions/org/apache/jmeter/functions/SamplerName.java,// TODO Should this method be synchronized ? all other function execute are
+100,jmeter,src/functions/org/apache/jmeter/functions/Jexl2Function.java,// TODO should the engine be static?
+107,jmeter,src/core/org/apache/jmeter/JMeter.java,// TODO - could this be return?
+117,jmeter,src/core/org/apache/jmeter/gui/action/Load.java,// TODO should setBaseForScript be called here rather than above?
+123,jmeter,src/protocol/ldap/org/apache/jmeter/protocol/ldap/sampler/LdapClient.java,//TODO perhaps return this?
+124,jmeter,src/protocol/http/org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.java,// TODO - change to use URL version? Will this affect test plans?
+126,jmeter,src/core/org/apache/jmeter/gui/tree/JMeterTreeModel.java,// TODO - can this eever happen?
+136,jmeter,src/protocol/http/org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.java,// TODO: make static?
+139,jmeter,src/protocol/http/org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.java,// TODO - belongs elsewhere
+140,jmeter,src/protocol/http/org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.java,// TODO can this happen?
+141,jmeter,src/protocol/http/org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.java,// TODO needed here because currently done on sample completion in JMeterThread 
+158,jmeter,src/protocol/jms/org/apache/jmeter/protocol/jms/sampler/SubscriberSampler.java,// TODO set different status if not enough messages found?
+162,jmeter,test/src/org/apache/jmeter/util/TestJMeterUtils.java,//TODO add some real tests now that split() has been removed
+173,jmeter,src/components/org/apache/jmeter/assertions/ResponseAssertion.java,// TODO strings should be resources
+174,jmeter,src/components/org/apache/jmeter/assertions/XMLSchemaAssertion.java,// TODO is this the correct strategy?
+176,jmeter,src/jorphan/org/apache/jorphan/gui/RateRenderer.java,// TODO: should this just call super()?

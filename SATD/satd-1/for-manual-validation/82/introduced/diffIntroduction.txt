@@ -1,0 +1,11 @@
+diff --git a/src/core/org/apache/jmeter/util/JMeterUtils.java b/src/core/org/apache/jmeter/util/JMeterUtils.java
+index 4bb870e..d27f87e 100644
+--- a/src/core/org/apache/jmeter/util/JMeterUtils.java
++++ b/src/core/org/apache/jmeter/util/JMeterUtils.java
+@@ -995,3 +995,5 @@ public class JMeterUtils implements UnitTestManager
+ 
+ 
+ 
++
++
+

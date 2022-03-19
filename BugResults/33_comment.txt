@@ -1,0 +1,14 @@
+File path: src/protocol/mail/org/apache/jmeter/protocol/mail/sampler/MailReaderSampler.java
+Comment: // TODO is this sensible?
+Initial commit id: bdcbd6fcd
+Final commit id: 87b67eb18
+   Bugs between [       4]:
+87b67eb18 Bug 56539 - Mail reader sampler: When Number of messages to retrieve is superior to 1, Number of samples should only show 1 not the number of messages retrieved Bugzilla Id: 56539
+d7fdf5ad2 Bug 53042 - Introduce a new Interface to be implemented by AbstractSampler to allow Sampler to decide wether a config element applies to Sampler
+3dbd39d86 Bug 51011 - Mail Reader: upon authentication failure, tell what you tried
+91e79e3ed Bug 49603 - Allow accepting expired certificates on Mail Reader Sampler
+   Bugs after [       2]:
+72cb7ea99 Bug 60564 - Migrating LogKit to SLF4J - Replace logkit loggers with slf4j ones with keeping the current logkit binding solution
+6c7feaab6 Bug 57193: Add param and return tags to javadoc Bugzilla Id: 57193
+End block index: 0
+/*

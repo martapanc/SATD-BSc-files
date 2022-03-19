@@ -1,0 +1,13 @@
+diff --git a/src/functions/org/apache/jmeter/functions/SamplerName.java b/src/functions/org/apache/jmeter/functions/SamplerName.java
+index 9d02a59..bae8289 100644
+--- a/src/functions/org/apache/jmeter/functions/SamplerName.java
++++ b/src/functions/org/apache/jmeter/functions/SamplerName.java
+@@ -45,6 +45,7 @@ public class SamplerName extends AbstractFunction {
+ 
+     private Object[] values;
+ 
++    // TODO Should this method be synchronized ? all other function execute are
+     /** {@inheritDoc} */
+     @Override
+     public String execute(SampleResult previousResult, Sampler currentSampler)
+

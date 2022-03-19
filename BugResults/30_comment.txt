@@ -1,0 +1,10 @@
+File path: src/core/org/apache/jmeter/gui/action/EditCommand.java
+Comment: // TODO: I believe the following code (to the end of the method) is
+Initial commit id: e2d97b33a
+Final commit id: 1139c450e
+   Bugs between [       1]:
+d6b7c4fd0 Bug 51822 - (part 1) save 1 invocation of GuiPackage#getCurrentGui
+   Bugs after [       0]:
+
+End block index: 0
+/*

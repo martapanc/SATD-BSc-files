@@ -1,0 +1,10 @@
+File path: src/core/org/apache/jmeter/util/BeanShellClient.java
+Comment: // TODO Why empty block ?
+Initial commit id: 914e90e0c
+Final commit id: 73acbaf48
+   Bugs between [       1]:
+f41a28e93 Bug 57084 - BeanShellClient: Close socket after usage. Bugzilla Id: 57084
+   Bugs after [       0]:
+
+End block index: 0
+/*

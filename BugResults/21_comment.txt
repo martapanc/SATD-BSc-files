@@ -1,0 +1,11 @@
+File path: src/protocol/native/org/apache/jmeter/protocol/system/SystemSampler.java
+Comment: // TODO is this the best way to do this?
+Initial commit id: c6f644acf
+Final commit id: 3b46f06ab
+   Bugs between [       3]:
+dd30d6171 Bug 57193: Add param and return tags to javadoc Bugzilla Id: 57193
+98e597585 Bug 55403 - Enhancement to OS sampler: Support for timeout Fixed compilation error Bugzilla Id: 55403
+8d0f4b0fb Bug 55403 - Enhancement to OS sampler: Support for timeout Bugzilla Id: 55403
+   Bugs after [       1]:
+20c0659ee Bug 60564 - Migrating LogKit to SLF4J - Replace logkit loggers with slf4j ones with keeping the current logkit binding solution
+

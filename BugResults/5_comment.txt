@@ -1,0 +1,9 @@
+File path: src/jorphan/org/apache/jorphan/gui/RateRenderer.java
+Comment: // TODO: should this just call super()?
+Initial commit id: bb63ad9f5
+Final commit id: 2633ade66
+   Bugs between [       0]:
+
+   Bugs after [       0]:
+
+

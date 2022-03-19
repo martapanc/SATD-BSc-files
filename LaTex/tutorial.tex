@@ -1,0 +1,32 @@
+\documentclass[10pt]{scrartcl}
+\usepackage[margin=0.8in]{geometry}
+\begin{document}
+
+
+\title{Architectural Styles of Self-adaptation for SoS}
+\subtitle{Also some experiments with LaTex}
+\author{Marta Pancaldi}
+\maketitle
+
+The common architecture that self-adaptive Systems of Systems share involves two or more systems, each one including a managing system / controller and a managed system / target. The controller monitors the behavior of the target, and the target adapts to the directives of the controller, in order to achieve specific domain functionalities. \par
+There are three basic architectures to achieve interaction between systems, featuring feedback loops in the form of run-time data:
+
+\begin{enumerate}
+\item \textbf{Local Adaptation}\\
+There are local feedback loops that do not coordinate directly, only between pairs of managed systems. Feedback loops share no information with each other, so there is uncertainty about other systems and the environment: indirect interactions may trigger side-effects / emergent events between individually optimised systems of systems.\\
+For example, in a traffic light managing system, each installation in an intersection may have an independent control system that checks if all three lights are working. If it detects a faulty light, it may trigger an alarm signal while waiting for the traffic light to be repaired, for instance by activating an emergency blinking yellow light.
+
+\item \textbf{Regional Monitoring - Local Adaptation }\\
+In addition to the local adaptation architecture, controllers receive feedbacks from neighboring managed systems to support decision making of adaptations, which also reduce potential side effects of indirect feedback architectures, but increases dependency between systems. \\
+For instance, a traffic monitoring system including cameras distributed along the road may allow information sharing between multiple cameras, in order to detect traffic jams and providing information to clients.
+
+\item \textbf{Collaborative Adaptation} \\
+Both controllers and managed systems send feedback loops between each other and local loops may cooperate with one another. \\
+For instance, considering independent groups of GPS devices that interact with a server, with each group consisting of a master and multiple slave devices, there may be two feedback loops: the first local loop deals with the activation / deactivation of the GPS service; the second loop acts in a group context and allows the master device to collect data from the slaves and adapt the group in case one GPS service fails.
+\end{enumerate}
+
+
+
+
+
+\end{document}

@@ -1,0 +1,12 @@
+File path: src/core/org/apache/jmeter/gui/action/Load.java
+Comment: // TODO should setBaseForScript be called here rather than above?
+Initial commit id: 4a5192431
+Final commit id: e2fcfe848
+   Bugs between [       1]:
+571eb813f Bug 52707 - Make Open File dialog use last opened file folder as start folder Bugzilla Id: 52707
+   Bugs after [       3]:
+c6a82dfad Bug 60564 - Migrating LogKit to SLF4J - core/gui package (2/2) Contributed by Woonsan Ko This closes #272 Bugzilla Id: 60564
+c93177faa Bug 60266 - Usability/ UX : It should not be possible to close/exit/Revert/Load/Load a recent project or create from template a JMeter plan or open a new one if a test is running Bugzilla Id: 60266
+40b3221e7 Bug 57605 - When there is an error loading Test Plan, SaveService.loadTree returns null leading to NPE in callers Bugzilla Id: 57605
+End block index: 0
+/*

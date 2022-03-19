@@ -1,0 +1,14 @@
+diff --git a/src/protocol/mail/org/apache/jmeter/protocol/mail/sampler/MailReaderSampler.java b/src/protocol/mail/org/apache/jmeter/protocol/mail/sampler/MailReaderSampler.java
+index 04db9c9..8897931 100644
+--- a/src/protocol/mail/org/apache/jmeter/protocol/mail/sampler/MailReaderSampler.java
++++ b/src/protocol/mail/org/apache/jmeter/protocol/mail/sampler/MailReaderSampler.java
+@@ -229,8 +229,6 @@ public class MailReaderSampler extends AbstractSampler implements Interruptible
+             parent.setDataType(SampleResult.TEXT);
+             parent.setContentType("text/plain"); // $NON-NLS-1$
+ 
+-            parent.setSampleCount(messages.length); // TODO is this sensible?
+-
+             final boolean headerOnly = getHeaderOnly();
+             busy = true;
+             for (Message message : messages) {
+
